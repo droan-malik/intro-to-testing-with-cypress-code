@@ -22,13 +22,15 @@
     "redux-devtools-extension": "^2.13.2",
     "redux-logger": "^3.0.1",
     "superagent": "^3.8.2",
-    "superagent-promise": "^1.1.0"
+    "superagent-promise": "^1.1.0",
+    "@applitools/eyes-cypress": "latest"
   },
   "scripts": {
     "start": "cross-env PORT=4100 react-scripts start",
     "build": "react-scripts build",
     "test": "cross-env PORT=4100 react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "cy:dashboard": "cypress run --record --key 88c5394d-c317-451e-972b-acbab26ee9a9"
+    "cy:dashboard": "cypress run --record --key 88c5394d-c317-451e-972b-acbab26ee9a9",
+    "cy:applitools": "cypress run --spec cypress/integration/cy-09.js"
   }
 }

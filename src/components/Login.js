@@ -81,9 +81,9 @@ class Login extends React.Component {
                         onChange={this.changePassword}/>
                     {/*</label>*/}
                   </fieldset>
-
+                  <br/>
                   <button
-                    className="btn btn-lg btn-primary pull-xs-right"
+                    className="btn btn-sm btn-primary pull-xs-right"
                     type="submit"
                     disabled={this.props.inProgress}>
                     Sign in
