@@ -1,4 +1,4 @@
-describe('Sign in Flow using cypress-testing-libraay', () => {
+describe('Sign in Flow using cypress-testing-library', () => {
   it('should login successfully', function () {
     cy.visit('/login')
     cy.findByLabelText(/email/i).type('droanmalik@gmail.com')

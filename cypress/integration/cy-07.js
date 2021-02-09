@@ -3,8 +3,8 @@
 //
 // check list count
 
-describe('Global Feed', () => {
-  it('show pagination', () => {
+describe('Your Feed', () => {
+  it('hide pagination', () => {
     cy.login();
     cy.intercept('GET','/api/articles/*', { fixture: 'yourFeed' }).as('getYourFeed')
     cy.visit('/');

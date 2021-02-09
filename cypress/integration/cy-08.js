@@ -3,7 +3,7 @@
 //
 // check list count
 
-describe('Global Feed', () => {
+describe('Your Feed', () => {
   it('show bind data correctly', () => {
     cy.login();
     cy.intercept('GET', '/api/articles/*', { fixture: 'yourFeed' }).as(
@@ -32,9 +32,11 @@ describe('Global Feed', () => {
     );
     cy.visit('/');
     cy.wait('@getYourFeed').then(() => {
-      cy.get('#root')
-      cy.findAllByTestId('articlePreview')
-      .should('contain.text', 'No articles are here... yet.')
+      cy.get('#root');
+      cy.findAllByTestId('articlePreview').should(
+        'contain.text',
+        'No articles are here... yet.',
+      );
     });
   });
 });
