@@ -29,6 +29,8 @@
     "build": "react-scripts build",
     "test": "cross-env PORT=4100 react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "cy:dashboard": "cypress run --record --key 88c5394d-c317-451e-972b-acbab26ee9a9"
+    "cy:dashboard": "cypress run --record --key 88c5394d-c317-451e-972b-acbab26ee9a9",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
   }
 }

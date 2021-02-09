@@ -17,3 +17,13 @@ npm start
 The navigate to https://localhost:4100
 
 Code for Visual regression testing available in branch `applitools`
+
+## Run Cypress
+```bash
+npm run cy:open
+```
+
+## Run Cypress in headless mode
+```bash
+npm run cy:run
+```
