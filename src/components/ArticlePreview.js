@@ -34,7 +34,7 @@ const ArticlePreview = props => {
   };
 
   return (
-    <div className="article-preview">
+    <div className="article-preview" data-testid="articlePreview">
       <div className="article-meta">
         <Link to={`/@${article.author.username}`}>
           <img src={article.author.image} alt={article.author.username} />

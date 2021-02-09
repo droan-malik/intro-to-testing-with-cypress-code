@@ -23,3 +23,19 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
+
+import '@testing-library/cypress/add-commands';
+
+
+Cypress.Commands.add('login',()=>{
+  cy.request('POST', 'https://conduit.productionready.io/api/users/login',
+    {
+      'user': {
+        'email': 'droanmalik@gmail.com',
+        'password': 'qwertyuiop',
+      },
+    }).
+    its('body.user.token').should('exist').then((token) => {
+    localStorage.setItem('jwt', token);
+  });
+})

@@ -1,0 +1,60 @@
+{
+  "articles": [
+    {
+      "title": "Stub Test 1",
+      "slug": "corporis-accusamus-usqkmg",
+      "body": "Bacon ipsum dolor amet andouille t-bone short ribs, pork loin jerky pancetta rump cupim bacon spare ribs frankfurter beef ribs burgdoggen picanha pork chop. Ribeye ham hock filet mignon sirloin. Meatloaf salami bacon, kielbasa shoulder kevin doner t-bone pastrami alcatra. Sausage ground round porchetta, frankfurter beef landjaeger chuck beef ribs pork loin venison salami meatball brisket prosciutto shoulder.\n\nPancetta hamburger frankfurter, pork chop shoulder short ribs chuck leberkas fatback tri-tip flank jerky. Pork chop tenderloin fatback ball tip chislic pancetta chuck alcatra, frankfurter flank pork tail. Brisket rump fatback tongue shank. Sirloin ball tip hamburger boudin corned beef chuck.\n\nShank brisket leberkas meatloaf meatball cow. Pig picanha ball tip burgdoggen pork belly tail meatloaf shank fatback ground round porchetta jowl. Turkey pig leberkas alcatra frankfurter doner cupim porchetta. Meatloaf cupim sausage t-bone drumstick fatback pork biltong pork chop strip steak leberkas chislic burgdoggen hamburger. Tri-tip spare ribs alcatra, pork belly rump shankle turkey fatback.\n\nCapicola ribeye shank, tenderloin landjaeger spare ribs pork loin biltong short loin. Tenderloin beef ribs sirloin beef meatloaf, shankle ball tip short ribs shoulder tri-tip ham hock. Burgdoggen tenderloin biltong ground round jowl corned beef ball tip short ribs porchetta. Doner spare ribs swine jerky. Pastrami beef pork chop meatloaf tenderloin buffalo.\n\nPork chop turkey bacon chuck chicken. Chicken short ribs swine cupim. Chicken hamburger bacon shank ball tip filet mignon. Pastrami jerky bresaola sausage capicola.\nDoes your lorem ipsum text long for something a little meatier? Give our generator a try… it’s tasty!",
+      "createdAt": "2021-02-09T03:10:32.914Z",
+      "updatedAt": "2021-02-09T03:10:32.914Z",
+      "tagList": [],
+      "description": "Adipisicing quas qui",
+      "author": {
+        "username": "testuser",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 2
+    },
+    {
+      "title": "Stub Test 2",
+      "slug": "my-title-48b05n",
+      "body": "this post is **important**.",
+      "createdAt": "2021-02-09T03:05:45.750Z",
+      "updatedAt": "2021-02-09T03:05:45.750Z",
+      "tagList": [
+        "test"
+      ],
+      "description": "about X",
+      "author": {
+        "username": "notdrone",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 0
+    },
+    {
+      "title": "Stub Test 3",
+      "slug": "my-title-sdel6n",
+      "body": "this post is **important**.",
+      "createdAt": "2021-02-09T03:05:37.226Z",
+      "updatedAt": "2021-02-09T03:05:37.226Z",
+      "tagList": [
+        "test"
+      ],
+      "description": "about X",
+      "author": {
+        "username": "notdrone",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 0
+    }
+  ],
+  "articlesCount": 3
+}

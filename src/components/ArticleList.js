@@ -11,7 +11,7 @@ const ArticleList = props => {
 
   if (props.articles.length === 0) {
     return (
-      <div className="article-preview">
+      <div className="article-preview" data-testid="articlePreview">
         No articles are here... yet.
       </div>
     );

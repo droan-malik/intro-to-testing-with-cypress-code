@@ -109,6 +109,7 @@ class Editor extends React.Component {
                       type="text"
                       placeholder="Article Title"
                       value={this.props.title}
+                      data-testid="title"
                       onChange={this.changeTitle} />
                   </fieldset>
 
@@ -118,6 +119,7 @@ class Editor extends React.Component {
                       type="text"
                       placeholder="What's this article about?"
                       value={this.props.description}
+                      data-testid="about"
                       onChange={this.changeDescription} />
                   </fieldset>
 
@@ -127,6 +129,7 @@ class Editor extends React.Component {
                       rows="8"
                       placeholder="Write your article (in markdown)"
                       value={this.props.body}
+                      data-testid="article"
                       onChange={this.changeBody}>
                     </textarea>
                   </fieldset>
@@ -137,6 +140,7 @@ class Editor extends React.Component {
                       type="text"
                       placeholder="Enter tags"
                       value={this.props.tagInput}
+                      data-testid="tags"
                       onChange={this.changeTagInput}
                       onKeyUp={this.watchForEnter} />
 
